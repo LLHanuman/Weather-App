@@ -1,0 +1,129 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./stylesheet.css">
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">
+            <h3>Weather Forcast</h3>
+        </a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" id="addCity" type="text" placeholder="Search for a City" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" id="search" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <!-- <div class="input">
+        <input type="text" placeholder="Enter the city" class="input_text">
+        <input type="submit" value="Submit" class="submit">
+      </div>
+    </div> -->
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="card-body">
+                <h4>History:</h4>
+                <div>
+                    <div class="day1 column_weath">
+                        <ul class="list-group">
+                            <li class="list-group-item" ID="History"></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+
+                <div class="card">
+
+                    <div class="card-body">
+                        <h4>Day 1</h4>
+                        <div>
+                            <div class="day1 column_weath">
+                                <p class="d1desc"></p>
+                                <p class="d1mintemp"> </p>
+                                <p class="d1maxtemp"> </p>
+                                <i class="d1icon" src="" id="icon"> </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Day 2</h4>
+                    </div>
+                    <div class="day2 column_weath">
+                        <p class="d2desc"></p>
+                        <p class="d2mintemp"> </p>
+                        <p class="d2maxtemp"> </p>
+                        <i class="d2icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Day 3</h4>
+                    </div>
+                    <div class="day3 column_weath">
+                        <p class="d3desc"></p>
+                        <p class="d3mintemp"> </p>
+                        <p class="d3maxtemp"> </p>
+                        <i class="d3icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Day 4</h4>
+                    </div>
+                    <div class="day4 column_weath">
+                        <p class="d4desc"></p>
+                        <p class="d4mintemp"> </p>
+                        <p class="d4maxtemp"> </p>
+                        <i class="d4icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Day 5</h4>
+                    </div>
+                    <div class="day5 column_weath">
+                        <p class="d5desc"></p>
+                        <p class="d5mintemp"> </p>
+                        <p class="d5maxtemp"> </p>
+                        <i class="d5icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>
